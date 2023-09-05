@@ -1,0 +1,200 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right top, rgb(231, 235, 28), rgb(202, 254, 105));
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.headergp {
+    width: 100%;
+    height: 14rem;
+    background-color: rgb(235, 159, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+}
+
+#block {
+    width: 100%;
+    height: 20rem;
+    margin: 0;
+}
+
+.headergp img {
+    width: 10%;
+    display: inline;
+    margin-right: 2.5%;
+}
+
+#header {
+    display: inline-flex;
+    text-align: center;
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: "Snap ITC";
+    /* padding-top: 35px; */
+    margin: 0px auto;
+    text-shadow: 5px 4px 5px black;
+}
+
+#prev {
+    font-size: 2.5rem;
+    display: inline-block;
+    width: 5%;
+    align-items: center;
+    justify-content: right;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#searchgp {
+    width: 100%;
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    margin-top: 8.6rem;
+    background-color: rgb(175, 175, 246);
+    position: fixed;
+    top: 85px;
+}
+
+#searchgp div {
+    display: inline-flex;
+    margin-right: 10px;
+    height: 3.2rem;
+}
+
+#searchgp h3 {
+    margin-left: 300px;
+    margin-right: 20px;
+    font-size: 1.7rem;
+    color: darkblue;
+}
+
+#searchgp i {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgb(138, 20, 20);
+}
+
+#contactgp {
+    justify-content: left;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#title {
+    font-size: 5rem;
+    text-align: center;
+    margin: 0px auto;
+    padding: 1rem;
+    color: darkblue;
+    font-weight: bold;
+    background-image: linear-gradient(to right top, rgb(248, 230, 230), rgb(241, 241, 244), rgb(232, 232, 22), white, rgb(183, 252, 183), white, brown, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: darkblue;
+    border-bottom: 10px solid darkblue;
+    border-top: 10px solid darkblue;
+    display: inline-block;
+}
+
+#ans {
+    margin: auto 15%;
+    width: 70%;
+}
+
+#ans h2 {
+    color: red;
+    font-weight: bold;
+    font-size: 5.5rem;
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+table input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 80%;
+    border: none;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.itemimg {
+    width: 70%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+td,
+th {
+    text-align: center;
+    border: 2px solid black;
+    padding: 0.5rem;
+}
+
+.delete {
+    color: red;
+    font-size: 2.5rem;
+    background-color: transparent;
+    border: none;
+}
+
+.delete :hover {
+    color: rgb(77, 4, 4);
+}
+
+td {
+    font-size: 1.3rem;
+    color: blue;
+    font-weight: bold;
+}
+
+tr:nth-child(odd) {
+    background-color: blanchedalmond;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(248, 207, 146);
+}
+
+th {
+    font-size: 1.8rem;
+    color: darkblue;
+    height: 3rem;
+    background-color: rgb(235, 159, 17);
+}
+
+.continue {
+    text-decoration: none;
+    padding: 1rem;
+    display: inline-block;
+    width: 80%;
+    background-color: rgb(187, 238, 48);
+    color: black;
+}
+
+.continue:hover {
+    background-color: rgb(243, 178, 178);
+}
